@@ -3,7 +3,7 @@ window.PROFILE_DATA = {
   name: "朱程阳",
   englishName: "Chengyang Zhu",
   identity: "浙江水利水电学院 本科",
-  major: "专业：电气工程及其自动化",
+  major: "电气工程及其自动化",
   bio: [
     "在这里填写第一段个人简介，例如你的学习、工作背景和关注的问题。",
     "在这里填写第二段个人简介；如果不需要第二段，直接删除这一行。"
