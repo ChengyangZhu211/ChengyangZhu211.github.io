@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 600" role="img" aria-labelledby="title description">
+  <title id="title">头像占位图</title>
+  <desc id="description">请用个人照片替换此图片</desc>
+  <rect width="480" height="600" fill="#f1f4f8"/>
+  <circle cx="240" cy="205" r="86" fill="#c8d2df"/>
+  <path d="M92 514c10-116 68-174 148-174s138 58 148 174" fill="#c8d2df"/>
+  <text x="240" y="560" fill="#627187" font-family="Arial, sans-serif" font-size="25" text-anchor="middle">YOUR PHOTO</text>
+</svg>
