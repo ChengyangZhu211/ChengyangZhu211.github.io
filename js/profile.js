@@ -16,7 +16,7 @@ window.PROFILE_DATA = {
   // 邮箱留空时，网页会显示“待补充”。
   email: "2649695171@qq.com",
   githubUsername: "ChengyangZhu211",
-  domain: "https://chengyangzhu211.github.io",
+  domain: "https://chengyangzhu211.github.io/",
 
   education: [
     {
