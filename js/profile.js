@@ -1,9 +1,9 @@
 // 这是网站唯一需要经常编辑的文件。将引号中的占位文字替换成你的信息即可。
 window.PROFILE_DATA = {
-  name: "你的中文姓名",
-  englishName: "Your English Name",
-  identity: "你的当前身份，例如：某大学本科生 / 研究生 / 工程师",
-  major: "你的专业或研究方向",
+  name: "朱程阳",
+  englishName: "Chengyang Zhu",
+  identity: "浙江水利水电学院 本科",
+  major: "专业：电气工程及其自动化",
   bio: [
     "在这里填写第一段个人简介，例如你的学习、工作背景和关注的问题。",
     "在这里填写第二段个人简介；如果不需要第二段，直接删除这一行。"
@@ -14,9 +14,9 @@ window.PROFILE_DATA = {
   cv: "",
 
   // 邮箱留空时，网页会显示“待补充”。
-  email: "",
-  githubUsername: "",
-  domain: "",
+  email: "2649695171@qq.com",
+  githubUsername: "ChengyangZhu211",
+  domain: "chengyangzhu211.github.io",
 
   education: [
     {
@@ -49,5 +49,5 @@ window.PROFILE_DATA = {
   ],
 
   // 建议采用 YYYY-MM-DD 格式，每次更新内容后修改。
-  lastUpdated: "待补充"
+  lastUpdated: "2026-07-21"
 };
