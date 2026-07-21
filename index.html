@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="个人学术主页">
+  <title>个人学术主页</title>
+  <link rel="icon" href="images/avatar-placeholder.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="stylesheet.css">
+  <script src="js/profile.js" defer></script>
+  <script src="js/render-profile.js" defer></script>
+</head>
+
+<body>
+  <main class="page-shell">
+    <header class="profile-header">
+      <h1>
+        <span id="name">你的姓名</span>
+        <span id="english-name" class="english-name">Your English Name</span>
+      </h1>
+
+      <div class="profile-grid">
+        <div class="profile-media">
+          <img id="avatar" class="avatar" src="images/avatar-placeholder.svg" alt="个人头像">
+          <nav id="profile-links" class="profile-links" aria-label="个人链接"></nav>
+        </div>
+
+        <div class="profile-summary">
+          <p><strong>当前身份：</strong><span id="identity">待补充</span></p>
+          <p><strong>专业 / 方向：</strong><span id="major">待补充</span></p>
+          <div id="bio"></div>
+          <p><strong>邮箱：</strong><span id="email">待补充</span></p>
+        </div>
+      </div>
+    </header>
+
+    <section class="content-section" aria-labelledby="education-title">
+      <h2 id="education-title">教育经历</h2>
+      <div id="education-list" class="entry-list"></div>
+    </section>
+
+    <section class="content-section" aria-labelledby="projects-title">
+      <h2 id="projects-title">项目</h2>
+      <div id="projects-list" class="entry-list"></div>
+    </section>
+
+    <section class="content-section" aria-labelledby="awards-title">
+      <h2 id="awards-title">获奖</h2>
+      <div id="awards-list" class="entry-list"></div>
+    </section>
+
+    <footer>
+      <p>最后更新：<span id="last-updated">待补充</span></p>
+    </footer>
+  </main>
+
+  <noscript>
+    <p class="noscript">请启用 JavaScript，以加载个人资料。</p>
+  </noscript>
+</body>
+</html>
